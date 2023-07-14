@@ -121,14 +121,10 @@ dmypy.json
 .idea/
 .vscode/
 .vector_cache/
-third_party/stanford-corenlp-full-2018-10-05/
+
 
 ### Logs & Experiment dirs ###
-
-logdirs/
-logdir/
 pt-exps/
 philly-exps/
-ie_dirs/
 dumps/
 att_dirs/

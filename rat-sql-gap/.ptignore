@@ -6,14 +6,14 @@ venv/
 build/
 
 notebooks/
-third_party/stanford-corenlp-full-2018-10-05/
+
 third_party/syntaxSQL/
 
 *.egg
 *.egg-info
 
-logdirs/
+
 pt-exps/
 philly-exps/
-ie_dirs/
+
 experiments/
