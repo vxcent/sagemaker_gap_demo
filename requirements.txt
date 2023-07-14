@@ -12,5 +12,3 @@ attrs~=23.1.0
 asdl~=0.1.5
 protobuf==3.20.*
 astor~=0.8.1
-flask_cors~=3.0.10
-Snowflake-connector-python~=3.0.3
