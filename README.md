@@ -28,12 +28,16 @@ wget http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip
 unzip stanford-corenlp-full-2018-10-05.zip -d third_party/
 ```
 
-### 5. Download the checkpoint
+## 5. Download Large File Assets
+
+### 5.1 Download finetune checkpoint
 ```bash
 mkdir -p logdir/bart_run_1/bs\=12\,lr\=1.0e-04\,bert_lr\=1.0e-05\,end_lr\=0e0\,att\=1/
 mkdir ie_dirs
 aws s3 cp s3://gap-text2sql-public/checkpoint-artifacts/gap-finetuned-checkpoint logdir/bart_run_1/bs\=12\,lr\=1.0e-04\,bert_lr\=1.0e-05\,end_lr\=0e0\,att\=1/model_checkpoint-00041000
-
+```
+### 5.2 Download pretrained model 
+```bash
 mkdir -p pretrained_checkpoint
 aws s3 cp s3://gap-text2sql-public/checkpoint-artifacts/pretrained-checkpoint pretrained_checkpoint/pytorch_model.bin
 ```
