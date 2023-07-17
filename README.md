@@ -51,4 +51,4 @@ aws s3 cp s3://gap-text2sql-public/checkpoint-artifacts/pretrained-checkpoint pr
 ```
 
 ## 6. Enjoy the notebook! 
-### (rat-sql-gap/notebook.ipynb)
+### Check out the [notebook](rat-sql-gap/notebook.ipynb)
