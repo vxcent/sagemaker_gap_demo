@@ -49,3 +49,6 @@ aws s3 cp s3://gap-text2sql-public/checkpoint-artifacts/gap-finetuned-checkpoint
 mkdir -p pretrained_checkpoint
 aws s3 cp s3://gap-text2sql-public/checkpoint-artifacts/pretrained-checkpoint pretrained_checkpoint/pytorch_model.bin
 ```
+
+## 6. Enjoy the notebook! 
+### (rat-sql-gap/notebook.ipynb)
