@@ -3,25 +3,21 @@
 ## 0. Set up Sagemaker Studio Lab instance 
 
 ## 1. Clone the github repo
-`git clone https://github.com/vxcent/sagemaker_gap_demo.git`
+```bash
+git clone https://github.com/vxcent/sagemaker_gap_demo.git
+```
 
 ## 2. Setup Python Environment
 ```bash 
 conda activate default
-
 conda install python=3.7
-
 conda install -c conda-forge jsonnet openjdk
-
 conda install pytorch=1.5 cudatoolkit=10.2 -c pytorch
 ```
 ## 3. Install dependencies
-
-`cd sagemaker_gap_demo/rat-sql-gap`
-
 ```bash
+cd sagemaker_gap_demo/rat-sql-gap
 pip install -r requirements.txt
-
 python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
 ```
 
